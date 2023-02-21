@@ -1,0 +1,417 @@
+HTML{
+	height:100%;
+	}
+BODY {
+	margin:0;
+	background-color: #ffffff;
+	height:100%;
+}		
+
+img{
+
+	border: none 0px;
+}
+
+
+table{
+
+	border: none 0px;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+hr{
+
+	width: 100%;
+	color: #A4B6C4;
+	size: 1px;
+	
+}
+
+/** Start PureCSSMenu.com STYLE **/
+.navmenu{
+height:25px;
+background:#E0F1F3 !important;
+}
+.navmenu .navmenuInner{
+border-bottom:2px solid #ccc;
+background:#eee !important;
+height:23px;
+}
+
+.mml1{
+	margin-left: 6rem;
+}
+
+.mml2{
+	margin-left: 11rem;
+}
+
+#pcm{display:none;}
+ul.pureCssMenu {border:0px none !important; padding:0 !important; width:100%; background:#eee !important;}
+ul.pureCssMenu ul{display:none}
+ul.pureCssMenu li:hover>ul{display:block}
+ul.pureCssMenu ul{position: absolute;left:-1px;top:98%;}
+ul.pureCssMenu ul ul{position: absolute;left:98%;top:-2px;}
+ul.pureCssMenu,ul.pureCssMenu ul {
+	margin:0px;
+	list-style:none;
+	padding:0px 2px 2px 0px;
+	background-color:#ffffff;
+	background-repeat:repeat;
+	border-color:#AAAAAA;
+	border-width:1px;
+	border-style:solid;
+}
+ul.pureCssMenu table {border-collapse:collapse}
+ul.pureCssMenu {
+	display:block;
+	zoom:1;
+	float: left;
+}
+ul.pureCssMenu ul{
+	width:auto;
+}
+ul.pureCssMenu li{
+	display:block;
+	margin:2px 0px 0px 2px;
+	font-size:0px;
+}
+ul.pureCssMenu a:active, ul.pureCssMenu a:focus {
+outline-style:none;
+}
+ul.pureCssMenu li a{
+	background:#fff;
+	}
+	ul.pureCssMenu li ul li a{
+	background:#fff;
+	border-bottom:1px solid #eee;
+	}
+ul.pureCssMenu a, ul.pureCssMenu li.dis a:hover, ul.pureCssMenu li.sep a:hover {
+	display:block;
+	vertical-align:middle;
+	background-color:#ffffff;
+	border-width:0px;
+	border-color:#6655ff;
+	border-style:solid;
+	text-align:left;
+	text-decoration:none;
+	padding:4px;
+	_padding-left:0;
+	font:normal 11px Verdana;
+	color: #444444;
+	text-decoration:none;
+	cursor:pointer;
+}
+ul.pureCssMenu span{
+	overflow:hidden;
+}
+ul.pureCssMenu li {
+	float:left;
+}
+ul.pureCssMenu li.log_out {
+	float:right;
+}
+ul.pureCssMenu ul li {
+	float:none;
+}
+ul.pureCssMenu ul a {
+	text-align:left;
+	white-space:nowrap;
+}
+ul.pureCssMenu li.sep{
+	text-align:center;
+	padding:0px;
+	line-height:0;
+	height:100%;
+}
+ul.pureCssMenu li.sep span{
+	float:none;	padding-right:0;
+	width:5;
+	height:16;
+	display:inline-block;
+	background-color:#AAAAAA;	background-image:none;}
+ul.pureCssMenu ul li.sep span{
+	width:80%;
+	height:3;
+}
+ul.pureCssMenu li:hover{
+	position:relative;
+}
+ul.pureCssMenu li:hover>a{
+	background-color:#F5FBFF;
+	font:normal 11px Verdana;
+	color: #333;
+	text-decoration:none;
+}
+ul.pureCssMenu li a:hover{
+	position:relative;
+	background-color:#F5FBFF;
+	font:normal 11px Verdana;
+	color: #333;
+	text-decoration:none;
+}
+ul.pureCssMenu li.dis a {
+	color: #AAAAAA !important;
+}
+ul.pureCssMenu img {border: none;float:left;_float:none;margin-right:4px;width:16px;
+height:16px;
+}
+ul.pureCssMenu ul img {width:16px;
+height:16px;
+}
+ul.pureCssMenu img.over{display:none}
+ul.pureCssMenu li.dis a:hover img.over{display:none !important}
+ul.pureCssMenu li.dis a:hover img.def {display:inline !important}
+ul.pureCssMenu li:hover > a img.def  {display:none}
+ul.pureCssMenu li:hover > a img.over {display:inline}
+ul.pureCssMenu a:hover img.over,ul.pureCssMenu a:hover ul img.def,ul.pureCssMenu a:hover a:hover ul img.def,ul.pureCssMenu a:hover a:hover a:hover ul img.def,ul.pureCssMenu a:hover a:hover img.over,ul.pureCssMenu a:hover a:hover a:hover img.over,ul.pureCssMenu a:hover a:hover a:hover a:hover img.over{display:inline}
+ul.pureCssMenu a:hover img.def,ul.pureCssMenu a:hover ul img.over,ul.pureCssMenu a:hover a:hover ul img.over,ul.pureCssMenu a:hover a:hover a:hover ul img.over,ul.pureCssMenu a:hover a:hover img.def,ul.pureCssMenu a:hover a:hover a:hover img.def,ul.pureCssMenu a:hover a:hover a:hover a:hover img.def{display:none}
+ul.pureCssMenu a:hover ul,ul.pureCssMenu a:hover a:hover ul,ul.pureCssMenu a:hover a:hover a:hover ul{display:block}
+ul.pureCssMenu a:hover ul ul,ul.pureCssMenu a:hover a:hover ul ul{display:none}
+ul.pureCssMenu span{
+	display:block;
+	background-image:url(/images/arrv_anim_1.png);
+	background-position:right center;
+	background-repeat: no-repeat;
+   padding-right:11px;}
+ul.pureCssMenu li:hover>a>span{	background-image:url(/images/arrv_anim_1o.gif);
+}
+ul.pureCssMenu a:hover span{	_background-image:url(/images/arrv_anim_1o.gif)}
+ul.pureCssMenu ul span,ul.pureCssMenu a:hover table span{background-image:url(/images/arr_double_1.gif)}
+ul.pureCssMenu ul li:hover > a span{	background-image:url(/images/arr_double_1o.gif);}
+ul.pureCssMenu table a:hover span,ul.pureCssMenu table a:hover a:hover span,ul.pureCssMenu table a:hover a:hover a:hover span{background-image:url(/images/arr_double_1o.gif)}
+ul.pureCssMenu table a:hover table span,ul.pureCssMenu table a:hover a:hover table span{background-image:url(/images/arr_double_1.gif)}
+
+/** End PureCSSMenu.com STYLE **/
+
+ .icontent{
+	clear:both;
+	width:100%;
+	height:95%;
+	margin:0;
+	padding:0;
+	}
+.icontent iframe{
+	display:block;
+	float:left;
+	height:99%;
+	margin:0;
+	overflow:auto;
+	width:100%;
+	}
+	
+	
+/* jjmenu styles */
+.ItemRed { color: red; }
+.ItemBlue { color:blue; }
+div.jjmenu {
+	
+	position:absolute;
+	background:#fffef0;
+	border-bottom:2px solid gray;
+	border-right:1px solid gray;
+	padding:0px;
+}
+
+div.jj_menu_item {
+	color:black;
+	border:1px solid #FFFFFF;
+	border-bottom:none;
+	background-color:#FFFFFF;
+	cursor:pointer;
+}
+
+div.jj_menu_item span {
+	font-size:8pt;
+	display:block;
+	padding:4px;
+}
+
+div.jj_menu_item_more span {
+	background:url(/images/arr_double_1.gif)  right no-repeat;
+}
+div.jj_menu_item_more span {
+	padding-right:20px;
+}
+
+div.jj_menu_item_hover {
+	background-color:#EEEEEE;
+	color:black;
+}
+
+input[type="button"]{
+	color: #333;
+    font-size: 10px;
+    font-weight: bold;
+	cursor:pointer;
+	padding:2px;
+	background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+}
+
+input[type="button"]:hover  {
+    background-color: #2469C8;
+	color:#fff;
+	border:1px solid #626262;
+    font-size: 10px;
+    font-weight: bold;
+	cursor:pointer;
+	padding:2px;
+}
+
+
+
+
+.personnel{
+
+        color: #003C92;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        vertical-align: bottom;
+
+}
+
+.personneltitle{
+
+        color: #FF9933;
+        font-size: 11px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+
+}
+
+.tourname{
+                       
+        color: #6283A0;
+        font-size: 11px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+ 
+}
+
+table.settings-main-table{
+	background-image: url('/images/backyeni.gif'); 
+	width: 438px; 
+	height: 100px; 
+	text-align: center;
+	font-size:14px;
+	border-radius: 0.7rem;
+	}
+	
+	.modal-backdrop {
+	position: relative;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1040;
+	background-color: #000;
+}
+
+.modal-content {
+	padding: 0px;
+	width: 130%;
+}
+
+.dark_class {
+	background: #333;
+}
+
+.shadow-window {
+	border: thin solid #e2e2e2;
+	margin: 20px;
+	padding: 15px;
+	border-radius: 10px;
+	width: 576px;
+	height: 350px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+.opr-set {
+	color: #1172b7;
+	text-align: center;
+	font-family: MuseoSansCyrlW03-500;
+}
+
+.opr-net {
+	float: right;
+	color: #ffffff;
+	background: #1172b7;
+	padding: 10px;
+	margin-bottom: 22px;
+	font-family: MuseoSansCyrlW03-500;
+}
+
+.usr-name {
+	color: #1172b7;
+	text-align: center;
+	font-family: MuseoSansCyrlW03-700;
+}
+
+.sel-icon {
+	background-color: #908e8e38;
+}
+
+.headline-c {
+	color: #000000;
+	border-bottom: 1px solid #dfccaf;
+	font-size: 14px;
+	font-weight: bolder;
+	font-family: MuseoSansCyrlW03-900;
+	font-size: 12px;
+}
+
+.settings-select-test {
+	padding: 8px;
+	font-size: 14px;
+	text-align-last:center;
+	font-family: MuseoSansCyrlW03-500;
+	text-align: -webkit-center !important;
+	-webkit-appearance: none;
+	
+}
+
+.settings-select-test2 {
+	padding: 5px !important;
+	font-size: 12px !important;
+	text-align-last:center;
+	font-family: MuseoSansCyrlW03-700;
+	-webkit-appearance: none;
+	
+}
+
+.settings-select-filter {
+	padding: 3px;
+	font-size: 13px;
+	text-align-last:center;
+	font-family: MuseoSansCyrlW03-700;
+	-webkit-appearance: none;
+	
+}
+
+.oldView:hover {
+	background-image: none !important;
+	background-color: #00a3ff !important;
+}
+
+.input-icons i {
+	position: absolute;
+}
+
+.input-icons {
+	margin-bottom: 9px;
+}
+
+.icon {
+	padding: 8px;
+}
+
+.icon-filter {
+	padding: 7px;
+}
