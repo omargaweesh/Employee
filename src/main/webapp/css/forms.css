@@ -1,0 +1,71 @@
+form {
+		
+		padding-bottom : 0px;
+		padding-left : 0px;
+		padding-right : 0px;
+		padding-top : 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		font-size: 11px;
+		font-family: trebuchet ms;
+		}
+
+select {
+		color: black;
+		font-size: 12px;
+		font-family: Trebuchet MS;
+		padding-bottom : 0px;
+		padding-left : 0px;
+		padding-right : 0px;
+		padding-top : 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		}
+
+input {
+		color: black;
+		font-size: 12px;
+		font-family: Trebuchet MS;
+		padding-bottom : 0px;
+		padding-left : 0px;
+		padding-right : 0px;
+		padding-top : 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		}
+		
+		
+radio {
+		color: black;
+	font-size: 10px;
+		font-family: Arial, Helvetica, sans-serif;
+		padding-bottom : 0px;
+		padding-left : 0px;
+		padding-right : 0px;
+		padding-top : 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		}
+		
+
+textarea {
+		color: black;
+		font-size: 10px;
+		font-family: Arial, Helvetica, sans-serif;
+		padding-bottom : 0px;
+		padding-left : 0px;
+		padding-right : 0px;
+		padding-top : 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		}
